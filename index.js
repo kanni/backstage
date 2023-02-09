@@ -53,7 +53,6 @@ app.whenReady().then(() => {
         toggleWindow();
     })
 
-    // Register a 'CommandOrControl+X' shortcut listener.
     const ret = globalShortcut.register(config.shortCutKey, () => {
         console.log(`${config.shortCutKey} was pressed`)
         toggleWindow();
