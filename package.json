@@ -1,7 +1,7 @@
 {
   "name": "backstage",
-  "version": "0.0.6",
-  "description": "",
+  "version": "0.0.7",
+  "description": "Menubar app to do a one-click camera check before joining online meetings",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
