@@ -5,11 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^23.0.0"
+  "build": {
+    "appId": "io.lukas.backstage",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  },
+  "devDependencies": {
+    "electron": "^23.0.0",
+    "electron-builder": "^23.6.0"
   }
 }
